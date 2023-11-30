@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Module name="top">
-    <SubModule name="data_reader_inst" Register="62" Lut="96"/>
-    <SubModule name="uart_tx_inst" Register="71" Alu="31" Lut="80"/>
-    <SubModule name="uart_rx_inst" Register="71" Lut="213"/>
-    <SubModule name="led_inst" Register="33" Alu="31" Lut="39"/>
-</Module>
