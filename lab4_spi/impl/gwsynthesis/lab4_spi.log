@@ -1,0 +1,50 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'D:\GoWin\lab4_spi\src\sending_data.v'
+Undeclared symbol 'data_ready', assumed default net type 'wire'("D:\GoWin\lab4_spi\src\sending_data.v":26)
+WARN  (EX3801) : Parameter 'debouncer_limit' becomes localparam in 'sending_data' with formal parameter declaration list("D:\GoWin\lab4_spi\src\sending_data.v":15)
+WARN  (EX3801) : Parameter 'count_of_strobe' becomes localparam in 'sending_data' with formal parameter declaration list("D:\GoWin\lab4_spi\src\sending_data.v":16)
+Analyzing Verilog file 'D:\GoWin\lab4_spi\src\spi_master.v'
+Analyzing Verilog file 'D:\GoWin\lab4_spi\src\spi_slave.v'
+Analyzing Verilog file 'D:\GoWin\lab4_spi\src\testbench.v'
+Analyzing Verilog file 'D:\GoWin\lab4_spi\src\top.v'
+Undeclared symbol 'data_update', assumed default net type 'wire'("D:\GoWin\lab4_spi\src\top.v":12)
+Undeclared symbol 'clk_div', assumed default net type 'wire'("D:\GoWin\lab4_spi\src\top.v":12)
+Undeclared symbol 'data_output_uart', assumed default net type 'wire'("D:\GoWin\lab4_spi\src\top.v":14)
+Undeclared symbol 'transmitted_signal', assumed default net type 'wire'("D:\GoWin\lab4_spi\src\top.v":15)
+Analyzing Verilog file 'D:\GoWin\lab4_spi\src\uart_rx.v'
+WARN  (EX3801) : Parameter 'count_of_strobe' becomes localparam in 'uart_rx' with formal parameter declaration list("D:\GoWin\lab4_spi\src\uart_rx.v":11)
+WARN  (EX3801) : Parameter 'PAUSE' becomes localparam in 'uart_rx' with formal parameter declaration list("D:\GoWin\lab4_spi\src\uart_rx.v":12)
+WARN  (EX3801) : Parameter 'START' becomes localparam in 'uart_rx' with formal parameter declaration list("D:\GoWin\lab4_spi\src\uart_rx.v":12)
+WARN  (EX3801) : Parameter 'READ' becomes localparam in 'uart_rx' with formal parameter declaration list("D:\GoWin\lab4_spi\src\uart_rx.v":13)
+WARN  (EX3801) : Parameter 'STOP' becomes localparam in 'uart_rx' with formal parameter declaration list("D:\GoWin\lab4_spi\src\uart_rx.v":13)
+Analyzing Verilog file 'D:\GoWin\lab4_spi\src\uart_tx.v'
+WARN  (EX3801) : Parameter 'count_of_strobe' becomes localparam in 'uart_tx' with formal parameter declaration list("D:\GoWin\lab4_spi\src\uart_tx.v":11)
+Compiling module 'uart_rx'("D:\GoWin\lab4_spi\src\uart_rx.v":1)
+WARN  (EX3791) : Expression size 27 truncated to fit in target size 26("D:\GoWin\lab4_spi\src\uart_rx.v":25)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("D:\GoWin\lab4_spi\src\uart_rx.v":29)
+WARN  (EX3791) : Expression size 27 truncated to fit in target size 26("D:\GoWin\lab4_spi\src\uart_rx.v":34)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("D:\GoWin\lab4_spi\src\uart_rx.v":42)
+WARN  (EX3791) : Expression size 27 truncated to fit in target size 26("D:\GoWin\lab4_spi\src\uart_rx.v":47)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("D:\GoWin\lab4_spi\src\uart_rx.v":62)
+WARN  (EX3791) : Expression size 27 truncated to fit in target size 26("D:\GoWin\lab4_spi\src\uart_rx.v":71)
+NOTE  (EX0101) : Current top module is "uart_rx"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "D:\GoWin\lab4_spi\impl\gwsynthesis\lab4_spi.vg" completed
+[100%] Generate report file "D:\GoWin\lab4_spi\impl\gwsynthesis\lab4_spi_syn.rpt.html" completed
+GowinSynthesis finish

@@ -1,0 +1,40 @@
+{
+ "Files" : [
+  {
+   "Path" : "D:/GoWin/lab4_spi/src/sending_data.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GoWin/lab4_spi/src/spi_master.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GoWin/lab4_spi/src/spi_slave.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GoWin/lab4_spi/src/testbench.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GoWin/lab4_spi/src/top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GoWin/lab4_spi/src/uart_rx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GoWin/lab4_spi/src/uart_tx.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/GoWin/lab4_spi/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

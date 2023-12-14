@@ -1,0 +1,62 @@
+[
+ {
+  "InstFile" : "D:/GoWin/lab4_spi/src/testbench.v",
+  "InstLine" : 3,
+  "InstName" : "testbench",
+  "ModuleFile" : "D:/GoWin/lab4_spi/src/testbench.v",
+  "ModuleLine" : 3,
+  "ModuleName" : "testbench",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/GoWin/lab4_spi/src/testbench.v",
+    "InstLine" : 7,
+    "InstName" : "top_inst",
+    "ModuleFile" : "D:/GoWin/lab4_spi/src/top.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/GoWin/lab4_spi/src/top.v",
+      "InstLine" : 12,
+      "InstName" : "data_reader_inst",
+      "ModuleFile" : "D:/GoWin/lab4_spi/src/sending_data.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "sending_data"
+     },
+     {
+      "InstFile" : "D:/GoWin/lab4_spi/src/top.v",
+      "InstLine" : 13,
+      "InstName" : "spi_master_inst",
+      "ModuleFile" : "D:/GoWin/lab4_spi/src/spi_master.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "spi_master"
+     },
+     {
+      "InstFile" : "D:/GoWin/lab4_spi/src/top.v",
+      "InstLine" : 14,
+      "InstName" : "spi_slave_inst",
+      "ModuleFile" : "D:/GoWin/lab4_spi/src/spi_slave.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "spi_slave"
+     },
+     {
+      "InstFile" : "D:/GoWin/lab4_spi/src/top.v",
+      "InstLine" : 15,
+      "InstName" : "uart_tx_inst",
+      "ModuleFile" : "D:/GoWin/lab4_spi/src/uart_tx.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "uart_tx"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "InstFile" : "D:/GoWin/lab4_spi/src/uart_rx.v",
+  "InstLine" : 1,
+  "InstName" : "uart_rx",
+  "ModuleFile" : "D:/GoWin/lab4_spi/src/uart_rx.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "uart_rx"
+ }
+]
