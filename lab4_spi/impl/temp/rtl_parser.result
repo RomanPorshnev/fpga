@@ -1,0 +1,34 @@
+[
+ {
+  "InstFile" : "D:/GoWin/lab4_spi/src/sending_data.v",
+  "InstLine" : 1,
+  "InstName" : "sending_data",
+  "ModuleFile" : "D:/GoWin/lab4_spi/src/sending_data.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "sending_data"
+ },
+ {
+  "InstFile" : "D:/GoWin/lab4_spi/src/spi_master.v",
+  "InstLine" : 1,
+  "InstName" : "spi_master",
+  "ModuleFile" : "D:/GoWin/lab4_spi/src/spi_master.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "spi_master"
+ },
+ {
+  "InstFile" : "D:/GoWin/lab4_spi/src/spi_slave.v",
+  "InstLine" : 1,
+  "InstName" : "spi_slave",
+  "ModuleFile" : "D:/GoWin/lab4_spi/src/spi_slave.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "spi_slave"
+ },
+ {
+  "InstFile" : "D:/GoWin/lab4_spi/src/uart_tx.v",
+  "InstLine" : 1,
+  "InstName" : "uart_tx",
+  "ModuleFile" : "D:/GoWin/lab4_spi/src/uart_tx.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "uart_tx"
+ }
+]
