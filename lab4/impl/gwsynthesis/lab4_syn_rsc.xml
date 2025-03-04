@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Module name="top">
-    <SubModule name="sending_data_inst" Register="89" Lut="204"/>
-    <SubModule name="uart_tx_inst" Register="68" Alu="31" Lut="83"/>
-</Module>
